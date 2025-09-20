@@ -8,7 +8,7 @@ readme = "README.md"
 package-mode = false
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = ">=3.11,<3.13"
 python-dotenv = "^1.1.1"
 numpy = "^2.3.3"
 pandas = "^2.3.2"
@@ -24,6 +24,10 @@ pymongo = "^4.15.0"
 qdrant-client = "^1.15.1"
 comet-ml = "^3.52.1"
 wandb = "^0.21.4"
+loguru = "^0.7.2"
+typing-extensions = "^4.12.2"
+zenml = "^0.70.0"
+
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.4.2"
