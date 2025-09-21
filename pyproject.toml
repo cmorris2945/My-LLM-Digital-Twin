@@ -26,7 +26,7 @@ comet-ml = "^3.52.1"
 wandb = "^0.21.4"
 loguru = "^0.7.2"
 typing-extensions = "^4.12.2"
-zenml = "^0.70.0"
+zenml = "^0.85.0"
 
 
 [tool.poetry.group.dev.dependencies]
