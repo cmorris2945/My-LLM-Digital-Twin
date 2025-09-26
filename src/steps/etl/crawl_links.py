@@ -26,7 +26,7 @@ def crawl_links(user: UserDocument, links: list[str]) -> Annotated[List[str], "c
     step_context = get_step_context()
     step_context.add_output_metadata(output_name="crawled_links", metadata=metadata)
 
-    logger.info(f"Successfully crawled your stupis hole, 'Mack'. This..{successfull_crawls} / {len(links)} links.")
+    logger.info(f"Successfully crawled your stupid hole, 'Mack'. This...{successfull_crawls} / {len(links)} links.")
 
     return links
 
