@@ -1,0 +1,24 @@
+settings:
+  docker:
+    parent_image: 992382797823.dkr.ecr.eu-central-1.amazonaws.com/zenml-rlwlcs:latest
+    skip_build: True
+  orchestrator.sagemaker:
+    synchronous: false
+    
+parameters:
+  user_full_name: Chris Morris
+  links:
+    # GitHub Profile & Repositories
+    - https://github.com/cmorris2945
+    - https://github.com/cmorris2945/Titanic-MLOps  # current project
+    # My other specific repos:
+    - https://github.com/cmorris2945/ARGonaut
+    - https://github.com/cmorris2945/ML_ops_anime
+    - https://github.com/cmorris2945/ai_agent_research/tree/main/llm_research
+    - https://github.com/cmorris2945/ML_pipeliness
+    - https://github.com/cmorris2945/multi-transformer-serve-aws
+    - https://github.com/cmorris2945/ai_agents
+    
+    # LinkedIn Profile
+    - https://www.linkedin.com/in/c-r-7354a877/
+ 

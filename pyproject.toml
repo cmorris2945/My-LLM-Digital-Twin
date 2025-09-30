@@ -27,6 +27,9 @@ wandb = "^0.21.4"
 loguru = "^0.7.2"
 typing-extensions = "^4.12.2"
 zenml = "^0.85.0"
+sqlalchemy = "^2.0.0"
+psycopg2-binary = "^2.9.0"
+pydantic = "^2.0.0"
 
 
 [tool.poetry.group.dev.dependencies]
@@ -47,6 +50,9 @@ format-check = "black --check src/"
 format-fix = "black src/"
 lint-check = "ruff check src/"
 lint-fix = "ruff check --fix src/"
+run-digital-etl-chris = "zenml pipeline run --config configs/chris.yaml"
+zenml-status = "zenml status"
+zenml-init = "zenml init"
 
 # Run the main application
 run = "python src/main.py"
