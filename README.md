@@ -1,4 +1,3 @@
-# My-LLM-Digital-Twin
 # 🧬 My LLM Digital Twin Project
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://python.org)
