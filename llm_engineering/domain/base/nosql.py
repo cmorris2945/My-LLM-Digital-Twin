@@ -10,7 +10,7 @@ from llm_engineering.domain.exceptions import ImproperlyConfigured
 from llm_engineering.infrastructure.db.mongo import connection
 from llm_engineering.settings import settings
 
-_database = connection.get_database(settings.DATABASE_NAME)
+_database = connection[settings.DATABASE_NAME]
 
 
 T = TypeVar("T", bound="NoSQLBaseDocument")

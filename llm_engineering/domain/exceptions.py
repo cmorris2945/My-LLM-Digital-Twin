@@ -1,7 +1,41 @@
-class LLMTwinException(Exception):
-    """Base exception for LLM Twin project."""
+"""
+Custom Exceptions for the LLM Engineering Domain
+
+This module defines custom exceptions used throughout the application.
+"""
+
+
+class ImproperlyConfigured(Exception):
+    """
+    Raised when the application is not properly configured.
+    
+    Examples:
+    - Missing required settings
+    - Invalid configuration values
+    - Missing required classes or methods
+    """
     pass
 
-class ImproperlyConfigured(LLMTwinException):
-    """Raised when something is not configured properly."""
+
+class DatabaseError(Exception):
+    """
+    Raised when database operations fail.
+    
+    Examples:
+    - Connection failures
+    - Query errors
+    - Data validation errors
+    """
+    pass
+
+
+class CrawlerError(Exception):
+    """
+    Raised when web crawling operations fail.
+    
+    Examples:
+    - Network timeouts
+    - Invalid URLs
+    - Parsing errors
+    """
     pass

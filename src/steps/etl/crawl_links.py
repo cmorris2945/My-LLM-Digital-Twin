@@ -1,3 +1,5 @@
+from typing import List
+from typing_extensions import Annotated
 from urllib.parse import urlparse
 
 from loguru import logger
@@ -36,7 +38,7 @@ def _crawl_link(dispatcher:CrawlerDispatcher, link:str, user: UserDocument) -> t
     crawler_domain = urlparse(link).netloc
 
     try:
-        crawler.extract(lin=link, user=user)
+        crawler.extract(link=link, user=user)
 
         return(True, crawler_domain)
 
