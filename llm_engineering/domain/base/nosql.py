@@ -1,4 +1,4 @@
-import uuid
+﻿import uuid
 from abc import ABC
 from typing import Generic, Type, TypeVar
 

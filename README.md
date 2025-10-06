@@ -61,15 +61,12 @@ My **6+ years** as a **Bioinformatics Engineer & AI Scientist** provide the tech
 
 ---
 
+
 ## 🎯 This Project: Personal LLM Digital Twin
 
 This repository represents my exploration into **personal AI digital twins**—specifically creating an AI system that captures my unique communication patterns and expertise.
 
 ### 🏗️ Technical Architecture
-
-<img width="4324" height="2592" alt="image" src="https://github.com/user-attachments/assets/d332e837-b0bc-41c4-850c-a3fcadaff4e9" />
-
-
 
 ```mermaid
 graph TD
