@@ -5,6 +5,14 @@ This module defines custom exceptions used throughout the application.
 """
 
 
+class LLMTwinException(Exception):
+    pass
+
+
+class ImproperlyConfigured(LLMTwinException):
+    pass
+
+
 class ImproperlyConfigured(Exception):
     """
     Raised when the application is not properly configured.
