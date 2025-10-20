@@ -12,23 +12,34 @@ from pydantic_settings import BaseSettings
 class Settings(BaseSettings):
     """
     Application settings loaded from environment variables.
-    
-    To override defaults, set environment variables or create .env file:
-    DATABASE_HOST=mongodb://localhost:27017
-    DATABASE_NAME=digital_twin
+
+
     """
+
+    ## Qdrant settings...
     
-    # MongoDB settings - using full URI format like the book
+    USE_QDRANT_CLOUD: bool = False
+    QDRANT_DATABASE_HOST: str = "localhost"
+    QDRANT_DATABASE_PORT: int = 6333
+    QDRANT_CLOUD_URL: str = ""
+    QDRANT_APIKEY: str = ""
+
+    # MongoDB settings - using full URI format 
     DATABASE_HOST: str = "mongodb://localhost:27017"  # Full MongoDB URI
-    DATABASE_NAME: str = "digital_twin"               # Database name
-    
+    DATABASE_NAME: str = "digital_twin"               # my Database name
+
     # Application settings
     APP_NAME: str = "Digital Twin LLM"
     DEBUG: bool = True
     
+    #  EMBEDDING SETTINGS:
+    TEXT_EMBEDDING_MODEL_ID: str = "sentence-transformers/all-MiniLM-L6-v2"
+    RAG_MODEL_DEVICE: str = "cpu"  # can use CUDA if I have GPU in the future
+    RERANKING_CROSS_ENCODER_MODEL_ID: str = "cross-encoder/ms-marco-MiniLM-L-6-v2"
+
     class Config:
         """Pydantic configuration."""
-        env_file = ".env"  # Load from .env file if exists
+        env_file = ".env"  # Load from .env file
         case_sensitive = False
 
 

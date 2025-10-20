@@ -11,7 +11,7 @@ def clean_documents(
 
     for document in documents:
         cleaned_document = CleaningDispatcher.dispath(document)
-        cleaned_documents.append(cleand_document)
+        cleaned_documents.append(cleaned_document)
 
         step_context = get_step_context()
         step_context.add_output_metadata(output_name="cleaned_documents", metadata=_get_metadata(cleaned_documents))

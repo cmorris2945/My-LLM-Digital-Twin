@@ -1,4 +1,4 @@
-from logru import logger
+from loguru import logger
 from typing_extensions import Annotated
 from zenml import step
 
