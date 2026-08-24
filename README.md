@@ -9,7 +9,7 @@
 
 ---
 
-## 🔬 What is Digital Twin Technology?
+##  What is Digital Twin Technology?
 
 **Digital twin technology** represents one of the most transformative innovations in computational biology and personalized medicine. At its core, a **digital twin** is a dynamic, virtual representation of a biological system—whether a single cell, organ, or entire organism—that evolves in real-time alongside its physical counterpart. 
 
@@ -30,7 +30,7 @@ In healthcare, digital twins enable **personalized medicine at scale**—allowin
 
 ---
 
-## 👨‍🎓 My Background & Research Focus
+##  My Background & Research Focus
 
 As a **PhD candidate in Computer Science** at the University of Florida's Herbert Wertheim College of Engineering, I'm conducting cutting-edge research under **Dr. Tamer Kahveci** on:
 
