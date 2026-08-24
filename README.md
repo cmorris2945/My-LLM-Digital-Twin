@@ -1,4 +1,4 @@
-# 🧬 My LLM Digital Twin Project
+# My LLM Digital Twin Project
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://python.org)
 [![ZenML](https://img.shields.io/badge/ZenML-Pipeline-orange.svg)](https://zenml.io)
@@ -14,19 +14,19 @@
 **Digital twin technology** represents one of the most transformative innovations in computational biology and personalized medicine. At its core, a **digital twin** is a dynamic, virtual representation of a biological system—whether a single cell, organ, or entire organism—that evolves in real-time alongside its physical counterpart. 
 
 Unlike static models, digital twins continuously integrate live data streams:
-- 🧬 **Genomics** - DNA/RNA sequencing data
-- 🔬 **Proteomics** - Protein expression profiles  
-- ⚗️ **Metabolomics** - Metabolite concentrations
-- 📊 **Imaging** - Medical scans and diagnostics
-- ⌚ **Wearables** - Real-time physiological monitoring
+-  **Genomics** - DNA/RNA sequencing data
+-  **Proteomics** - Protein expression profiles  
+-  **Metabolomics** - Metabolite concentrations
+-  **Imaging** - Medical scans and diagnostics
+-  **Wearables** - Real-time physiological monitoring
 
-### 🏥 Healthcare Impact
+###  Healthcare Impact
 
 In healthcare, digital twins enable **personalized medicine at scale**—allowing clinicians to:
-- ✅ Test treatments virtually before applying them to patients
-- 📈 Predict disease progression with unprecedented accuracy
-- 🎯 Optimize therapeutic interventions based on individual biological signatures
-- 🔄 Bridge the gap between computational modeling and clinical reality
+-  Test treatments virtually before applying them to patients
+-  Predict disease progression with unprecedented accuracy
+-  Optimize therapeutic interventions based on individual biological signatures
+-  Bridge the gap between computational modeling and clinical reality
 
 ---
 
@@ -34,23 +34,23 @@ In healthcare, digital twins enable **personalized medicine at scale**—allowin
 
 As a **PhD candidate in Computer Science** at the University of Florida's Herbert Wertheim College of Engineering, I'm conducting cutting-edge research under **Dr. Tamer Kahveci** on:
 
-- 🚀 **GPU-accelerated medical digital twins**
-- 🤖 **Multi-agent AI for computational biology**
-- 📊 **Mathematical frameworks combining ODEs with Boolean logic**
-- 🧬 **Cellular behavior modeling across transcriptomic, proteomic, and metabolic layers**
+-  **GPU-accelerated medical digital twins**
+-  **Multi-agent AI for computational biology**
+-  **Mathematical frameworks combining ODEs with Boolean logic**
+-  **Cellular behavior modeling across transcriptomic, proteomic, and metabolic layers**
 
-### 💼 Professional Foundation
+###  Professional Foundation
 
 My **6+ years** as a **Bioinformatics Engineer & AI Scientist** provide the technical foundation:
 
 | Expertise Area | Key Technologies & Achievements |
 |---|---|
-| **🧬 Next-Generation Sequencing** | Nextflow pipelines, RNA-seq, ATAC-seq, WES/WGS analysis (AWS/Azure/Docker) |
-| **🤖 AI/ML Model Development** | Production-grade ML systems for therapeutic discovery, pathogen detection |
-| **⚡ High-Performance Computing** | GPU-accelerated computing, CUDA programming, distributed systems |
-| **🔗 Multi-Modal Data Integration** | Relational/NoSQL databases with advanced ML workflows |
+| ** Next-Generation Sequencing** | Nextflow pipelines, RNA-seq, ATAC-seq, WES/WGS analysis (AWS/Azure/Docker) |
+| ** AI/ML Model Development** | Production-grade ML systems for therapeutic discovery, pathogen detection |
+| ** High-Performance Computing** | GPU-accelerated computing, CUDA programming, distributed systems |
+| ** Multi-Modal Data Integration** | Relational/NoSQL databases with advanced ML workflows |
 
-### 🏢 Industry Impact
+###  Industry Impact
 
 | Company | Role & Impact |
 |---------|---------------|
@@ -62,11 +62,11 @@ My **6+ years** as a **Bioinformatics Engineer & AI Scientist** provide the tech
 ---
 
 
-## 🎯 This Project: Personal LLM Digital Twin
+##  This Project: Personal LLM Digital Twin
 
 This repository represents my exploration into **personal AI digital twins**—specifically creating an AI system that captures my unique communication patterns and expertise.
 
-### 🏗️ Technical Architecture
+###  Technical Architecture
 
 ```mermaid
 graph TD
