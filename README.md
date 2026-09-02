@@ -32,7 +32,7 @@ In healthcare, digital twins enable **personalized medicine at scale**—allowin
 
 ##  My Background & Research Focus
 
-As a **PhD candidate in Computer Science** at the University of Florida's Herbert Wertheim College of Engineering, I'm conducting cutting-edge research under **Dr. Tamer Kahveci** on:
+As a **PhD student in Computer Science** at the University of Florida's Herbert Wertheim College of Engineering, I'm conducting cutting-edge research under **Dr. Tamer Kahveci** on:
 
 -  **GPU-accelerated medical digital twins**
 -  **Multi-agent AI for computational biology**
