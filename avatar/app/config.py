@@ -10,6 +10,21 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
 
+def _load_local_env(path: Path) -> None:
+    """Load simple KEY=VALUE entries without overriding the process environment."""
+    if not path.exists():
+        return
+    for raw_line in path.read_text(encoding="utf-8").splitlines():
+        line = raw_line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, value = line.split("=", 1)
+        key = key.strip()
+        value = value.strip().strip("\"'")
+        if key:
+            os.environ.setdefault(key, value)
+
+
 def _resolve_path(value: str, default: Path) -> Path:
     raw = Path(value).expanduser() if value else default
     return raw if raw.is_absolute() else (PROJECT_ROOT / raw).resolve()
@@ -26,6 +41,7 @@ class Settings:
 
 
 def load_settings() -> Settings:
+    _load_local_env(PROJECT_ROOT / ".env")
     return Settings(
         app_name=os.getenv("AVATAR_APP_NAME", "Chris Avatar"),
         model=os.getenv("AVATAR_MODEL", "qwen3:8b"),
@@ -43,4 +59,3 @@ def load_settings() -> Settings:
 
 
 settings = load_settings()
-
