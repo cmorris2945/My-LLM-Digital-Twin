@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "my-llm-digital-twin"
 version = "0.1.0"
-description = "My LLM Digital Twin built from scratch for research"
+description = "Personal AI digital twin research for healthcare and bioinformatics at the University of Florida"
 authors = ["cmorris2945 <cmorris2945@yahoo.com>"]
 license = "MIT"
 readme = "README.md"
