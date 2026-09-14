@@ -16,7 +16,14 @@ from app.prompt import build_system_prompt
 from app.schemas import ChatRequest, ChatResponse, MemoryProposalRequest, MemoryResponse
 
 
-app = FastAPI(title=settings.app_name, version="0.1.0")
+app = FastAPI(
+    title=settings.app_name,
+    description=(
+        "I am a PhD student at the University of Florida researching digital twin "
+        "technology and artificial intelligence for healthcare and bioinformatics."
+    ),
+    version="0.1.0",
+)
 app.mount("/static", StaticFiles(directory=PROJECT_ROOT / "app" / "static"), name="static")
 
 store = MemoryStore(settings.database_path)
@@ -101,4 +108,3 @@ def approve_memory(memory_id: int) -> dict[str, object]:
 @app.post("/api/memories/{memory_id}/reject", response_model=MemoryResponse)
 def reject_memory(memory_id: int) -> dict[str, object]:
     return _review_memory(memory_id, "rejected")
-

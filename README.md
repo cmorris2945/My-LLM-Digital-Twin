@@ -1,5 +1,9 @@
 # My LLM Digital Twin Project
 
+> I am a PhD student at the University of Florida researching digital twin technology and artificial intelligence for healthcare and bioinformatics.
+
+![Chris Morris alongside a healthcare AI digital twin](avatar/docs/images/chris-digital-twin-hero.webp)
+
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://python.org)
 [![ZenML](https://img.shields.io/badge/ZenML-Pipeline-orange.svg)](https://zenml.io)
 [![LangChain](https://img.shields.io/badge/LangChain-Multi--Agent-green.svg)](https://langchain.com)

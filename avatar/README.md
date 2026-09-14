@@ -1,5 +1,9 @@
 # Chris Avatar MVP
 
+> I am a PhD student at the University of Florida researching digital twin technology and artificial intelligence for healthcare and bioinformatics.
+
+![Chris Morris alongside a healthcare AI digital twin](docs/images/chris-digital-twin-hero.webp)
+
 This subproject turns the existing LLM digital twin research repository into a usable, local first personal AI avatar.
 
 The first release is deliberately conservative. It can talk through a local open weight model, retrieve approved memories, preserve conversation history, accept candidate memories for review, and speak responses through the browser. It cannot send messages, spend money, publish content, delete files, or impersonate Chris.
@@ -86,4 +90,3 @@ This is intentional. A language model saying "remember this" is not sufficient a
 4. Add semantic retrieval only after the deterministic baseline is measured.
 5. Add optional tools in read-only mode, followed by explicit approval gates for every external action.
 6. Add a rendered face or video avatar after the cognitive proxy is reliable.
-
